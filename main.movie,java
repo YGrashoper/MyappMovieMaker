@@ -25,19 +25,29 @@ public class CinemaChoice {
         System.out.println("Genre is "+Darkest_Hour.getGenre());
         System.out.println("Genre is "+Shape_of_Water.getGenre());
 
-  Shape_of_Water.Cinema_to_Watch = "Kinopasaka";
- I_Tonya.Cinema_to_Watch = "Skalvija";
-Risky_Business.Cinema_to_Watch = "Kinopasaka";
-      Black_Panther.Cinema_to_Watch = "Forum Cinemas";
-      Ready_Player_One.Cinema_to_Watch = "Forum Cinemas";
-       Darkest_Hour.Cinema_to_Watch = "Kinopasaka";
+        Shape_of_Water.setCinema_to_Watch("Kinopasaka");
+        I_Tonya.setCinema_to_Watch("Skalvija");
+        Risky_Business.setCinema_to_Watch ("Kinopasaka");
+        Black_Panther.setCinema_to_Watch ("Forum Cinemas");
+        Ready_Player_One.setCinema_to_Watch ("Forum Cinemas");
+        Darkest_Hour.setCinema_to_Watch("Kinopasaka");
 
-       Shape_of_Water.ReleaseYear = "2018";
-       I_Tonya.ReleaseYear = "2018";
-       Risky_Business.ReleaseYear ="1983";
-       Black_Panther.ReleaseYear ="2018";
-       Ready_Player_One.ReleaseYear ="2018";
-       Darkest_Hour.ReleaseYear ="2018";
+        System.out.println("You can see Black_Panther in  "+Black_Panther.getCinema_to_Watch());
+        System.out.println("You can see I_Tonya "+I_Tonya.getCinema_to_Watch());
+        System.out.println("You can see  Ready_Player_One in  "+Ready_Player_One.getCinema_to_Watch());
+        System.out.println("You can see Darkest_Hour in  "+Darkest_Hour.getCinema_to_Watch());
+        System.out.println("You can see Shape_of_Water in  "+Shape_of_Water.getCinema_to_Watch());
+
+
+
+
+//       Shape_of_Water.ReleaseYear = "2018";
+//       I_Tonya.ReleaseYear = "2018";
+//       Risky_Business.ReleaseYear ="1983";
+//       Black_Panther.ReleaseYear ="2018";
+//       Ready_Player_One.ReleaseYear ="2018";
+//       Darkest_Hour.ReleaseYear ="2018";
 
     }
 }
+
