@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class CinemaChoice {
+    public static void main(String args[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Dear user , welcome to my Movieland");
+        System.out.println("Please choose genre, the year of release, that we could offer you movie and where to watch it");
+        Film Shape_of_Water = new Film();
+        Film I_Tonya = new Film();
+        Film Risky_Business = new Film();
+        Film Black_Panther = new Film();
+        Film Ready_Player_One = new Film();
+        Film Darkest_Hour = new Film();
+
+        Shape_of_Water.setGenre ("Fantasy");
+        I_Tonya.setGenre("Biopic");
+        Risky_Business.setGenre("RomCom");
+        Black_Panther.setGenre ("Super Hero");
+        Ready_Player_One.setGenre(" Sci-fi");
+        Darkest_Hour.setGenre("War drama");
+
+        System.out.println("Genre is "+Black_Panther.getGenre());
+        System.out.println("Genre is "+I_Tonya.getGenre());
+        System.out.println("Genre is "+Ready_Player_One.getGenre());
+        System.out.println("Genre is "+Darkest_Hour.getGenre());
+        System.out.println("Genre is "+Shape_of_Water.getGenre());
+
+  Shape_of_Water.Cinema_to_Watch = "Kinopasaka";
+ I_Tonya.Cinema_to_Watch = "Skalvija";
+Risky_Business.Cinema_to_Watch = "Kinopasaka";
+      Black_Panther.Cinema_to_Watch = "Forum Cinemas";
+      Ready_Player_One.Cinema_to_Watch = "Forum Cinemas";
+       Darkest_Hour.Cinema_to_Watch = "Kinopasaka";
+
+       Shape_of_Water.ReleaseYear = "2018";
+       I_Tonya.ReleaseYear = "2018";
+       Risky_Business.ReleaseYear ="1983";
+       Black_Panther.ReleaseYear ="2018";
+       Ready_Player_One.ReleaseYear ="2018";
+       Darkest_Hour.ReleaseYear ="2018";
+
+    }
+}
