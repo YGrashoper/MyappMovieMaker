@@ -14,7 +14,7 @@ public class Film {
     }
 
     public void setCinemaToWatch(String cinemaToWatch) {
-        this.Cinema_to_Watch = cinema_to_watch;
+        this.CinemaToWatch = cinemaTowatch;
     }
 
     public String getCinemaToWatch() {
