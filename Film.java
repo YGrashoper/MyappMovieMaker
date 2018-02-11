@@ -6,29 +6,28 @@ public class Film {
     //set used to modify variable//
     //get used to approach variable//
     public void setGenre(String genre) {
-        this.Genre = genre;
+        this.genre = genre;
     }
 
     public String getGenre() {
-        return this.Genre;
+        return this.genre;
     }
 
     public void setCinemaToWatch(String cinemaToWatch) {
-        this.CinemaToWatch = cinemaTowatch;
+        this.cinemaToWatch = cinemaToWatch;
     }
 
     public String getCinemaToWatch() {
-        return this.CinemaToWatch;
+        return this.cinemaToWatch;
     }
 
     public void setReleaseYear(int releaseYear) {
-        ReleaseYear = releaseYear;
+        this.releaseYear = String.valueOf(releaseYear);
     }
 
-    public int getReleaseYear() {
-        return ReleaseYear;
+    public String getReleaseYear() {
+        return this.releaseYear;
     }
 }
-
 
 
