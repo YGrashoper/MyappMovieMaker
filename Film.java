@@ -1,7 +1,7 @@
 public class Film {
-    public String Genre;
-    public String Cinema_to_Watch;
-    public int ReleaseYear;
+    public String genre;
+    public String cinemaToWatch;
+    public String releaseYear;
 
     //set used to modify variable//
     //get used to approach variable//
@@ -13,12 +13,12 @@ public class Film {
         return this.Genre;
     }
 
-    public void setCinema_to_Watch(String cinema_to_watch) {
+    public void setCinemaToWatch(String cinemaToWatch) {
         this.Cinema_to_Watch = cinema_to_watch;
     }
 
-    public String getCinema_to_Watch() {
-        return this.Cinema_to_Watch;
+    public String getCinemaToWatch() {
+        return this.CinemaToWatch;
     }
 
     public void setReleaseYear(int releaseYear) {
